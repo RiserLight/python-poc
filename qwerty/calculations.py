@@ -21,3 +21,9 @@ class Calculations:
   async def div(self):
     await asyncio.sleep(1) 
     return self.x/self.y
+  
+class Evaluate:
+  
+  def find(self):
+    return Calculations(3,4)
+    
